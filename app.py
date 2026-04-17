@@ -30,6 +30,7 @@ with col2:
     petal_width  = st.slider("Petal Width (cm)",  0.1, 2.5, 0.2)
 st.divider()
 # Predict button
+
 if st.button("🔍Predict Species", use_container_width=True):
 # Prepare input for the model
     input_data = np.array([[sepal_length, sepal_width, petal_length, petal_width]])
