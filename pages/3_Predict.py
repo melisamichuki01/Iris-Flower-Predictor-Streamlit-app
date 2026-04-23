@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # ── API URL ────────────────────────────────────────────────
-API_URL = "http://127.0.0.1:8001/v1/predict"
+API_URL = "https://iris-flower-predictor-streamlit-app.onrender.com/v1/predict"
 
 # ── UI ─────────────────────────────────────────────────────
 st.title("🌸 Iris Flower Predictor (API Powered)")
